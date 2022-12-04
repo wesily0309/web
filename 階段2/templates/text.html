@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      overflow-x: hidden;
+    }
+    .background {
+      position: relative;
+      width: 150%;
+      height: 100%;
+      background-repeat: no-repeat;
+    }
+    .config {
+      position: relative;
+      margin-top: 11%;
+      font-size: 25px;
+      text-align: center;
+      color: rgb(43, 159, 226);
+    }
+    .home-text {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+    }
+    .configa {
+      position: relative;
+      margin: auto;
+      width: 560px;
+      height: 106px;
+      font-size: 80px;
+      text-align: center;
+      color: rgb(43, 159, 226);
+    }
+    .img-a {
+      margin-top: 1%;
+      margin-left: 3%;
+      text-align: left;
+      width: 400px;
+      height: 225px;
+    }
+
+    .configb {
+      padding: 10px;
+      font-size: 30px;
+      text-align: center;
+    }
+    .configc {
+      padding: 0px;
+      font-size: 25px;
+      text-align: center;
+    }
+    .abc {
+      margin-left: 3%;
+      font-size: 25px;
+      text-align: left;
+      padding: 0%;
+    }
+    .colorset {
+      color: rgb(255, 255, 255);
+    }
+    .history {
+      margin-left: 3%;
+      margin-top: 14%;
+    }
+    .pre {
+      margin-left: 5%;
+      margin-top: 5%;
+    }
+    .configd {
+      padding: 50;
+      text-align: right;
+      font-size: 25px;
+    }
+    .p2 {
+        padding: 5%;
+    }
+  </style>
+  <head>
+    <title>歡迎來到科技帝國</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <img
+      src="{{url_for('static', filename='Ahous_Little_Space.png')}}"
+      class="background"
+    />
+    <div class="home-text">
+      <p class="colorset pre">目前網站為Pre-alpha階段</p>
+      <h1 class="configa">科技安全討論區</h1>
+      <div class="config">
+        <p>
+          有大量外掛技術和後門技術的專業人士聚集並且有微量色情內容<br />
+          等等大量常規伺服器不會提供的服務及內容
+        </p>
+        <br />
+        <p>聲明:如果電腦遭入侵請自行處理我們會協助您但不須負任何責任</p>
+        <a href="https://discord.gg/hBkgjWGnKH">立即加入</a>
+      </div>
+      <h1 class="colorset history">歷史研究項目</h1>
+      <img src="{{url_for('static', filename='MCGLeLx.png')}}" class="img-a" />
+    </div>
+
+    <div class="p2">
+      <p class="abc">2b2tnocom</p>
+      <div class="configb">
+        <h3>專業的反外掛漏洞諮詢服務</h3>
+      </div>
+      <div class="configc">
+        <p>
+          目前已有超過260的外掛專業人士<br />並以開創超過8個月您隨時都可提問
+        </p>
+      </div>
+      <h3 class="configb">後門資安研究</h3>
+      <p class="configc">
+        想知道黑客是如何後門你的pc嗎你來對地方了<br />這裡聚集了大量練黑客技巧的人員
+      </p>
+
+      <div class="configd">
+        <a href="home.html">第2頁</a>
+      </div>
+    </div>
+    
+  </body>
+</html>
